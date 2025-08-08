@@ -1,0 +1,39 @@
+% World
+  * VJ2
+  - Logic16
+  - CBerry
+  - NBack
+  - VJ
+  - BlockCatch
+  - Test
+  - PathFollow
+  - TPM_GENERATOR
+  + Berry
+
+% Genome
+  * Circular
+  - Multi
+
+% Archivist
+  - SSwD
+  - LODwAP
+
+% Brain
+  - Wire
+  - CGP
+  - Markov
+  * Chris
+  - LSTM
+  - BiLog
+  - ANN
+  - RNN
+  - Human
+  - ConstantValues
+
+% Optimizer
+  - Islands
+  - Lexicase
+  - Roulette
+  * Tournament
+  - DriftPoolLOD
+

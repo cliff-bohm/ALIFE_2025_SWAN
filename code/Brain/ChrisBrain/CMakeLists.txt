@@ -1,0 +1,6 @@
+option(enable_Brain_Chris "Enable Module ChrisBrain" OFF)
+if (enable_Brain_Chris)
+	register_module(Brain Chris)
+	target_sources(${EXE} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/ChrisBrain.cpp)
+	target_sources(${EXE} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/ChrisBrain.h)
+endif()
